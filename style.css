@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.bg-light{
+	background-color: #EFC4A8!important;
+}
+.jumbotron{
+	background-image:url(img/pencil.jpeg);
+	background-size: contain;
+}
+
+body { 
+  background-color: #E9E3EA;
+    background-size:auto 100%;
+	background-position: bottom right;
+	background-attachment: fixed;
+}
+}
+.bg-info{
+    
+    background-color:#0091BD!important;
+}
+.bg-warning{
+    
+    background-color:#E2BF99!important;
+    
+}
+
+.bg-secondary{
+    
+    background-color:#3B7871!important;
+}
+}
+
+h1, h2, h3, h4, h5, h6, p, table{
+	padding:20px;
+}
+
+
+.center {
+  margin: 30%;
+  width: auto;
+  padding: auto;
+}
+
+
+.just {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Macondo');
+
+
+@font-face {
+	font-family: 'custom';
+	src: url('../fonts/jolt.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+	font-family:'helvetica';
+	color:black;
+	box-sizing: border-box;
+	margin:0;
+	padding:5px;
+}
+
+
+
+h1{
+	font-family: 'Macondo', cursive;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p, table{
+	padding:20px;
+}
+
+.custom{
+	font-family: 'custom';
+	text-align: center;
+	padding:20px;
+}
+
+/*nav*/
+
+
+
+
+nav{
+	position:absolute;
+	right:0px;
+	top:0px;
+	padding:0px;
+	margin:0px;
+}
+
+nav > ul{
+	margin:10px;
+}
+
+nav li ul{
+	display:none;
+}
+
+nav li:hover ul, nav ul li li{
+	display:block;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav ul li ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav a{
+	color:#fff;
+	background: linear-gradient( -45deg, #010d14, #257 30%, #257 70%, #7ac);
+	text-decoration: #f7f9fa;
+	padding:10px;
+	display: block;
+	width:100px;
+	text-align: center;
+	border-radius:0px 20px;
+}
+
+nav a:hover{
+	background: #e0679c;
+}
+.btn, .btn:focus, .btn:visited, .btn:active {
+	display:inline-block;
+	padding:10px;
+	background-color:#19d;
+	color:#fff;
+	text-decoration: none;
+	opacity:.5;
+}
+
+.btn:hover{
+	background-color: #e0679c;
+	opacity:1;
+}
+
+#type, #layout, #position, #flex, #animation, #selector, #cascadecontainer, #media{
+	max-width:950px;
+	margin:0px auto;
+}
+
+#cascadecontainer{
+	text-align: center;
+	padding:100px;
+	background:#fff;
+}
+/*	cascading experiment part 2 external*/
+/*inline a style before remove the comment below*/
+/*
+h6{
+	font-size:10px!important;
+}
+*/
+
+html body div #cascade{
+	font-size: 40px;
+}
+
+div #cascade{
+	font-size:80px;
+}
+
+#cascade{
+	font-size:50px;
+}
+
+div .cascading{
+	font-size:80px;
+}
+
+.cascading{
+	font-size:30px;
+}
+div h6{
+	font-size:20px;
+}
+
+/*start here, go down then stack on top of this going up*/
+h6{
+	font-size: 20px;
+}
+h6{
+	font-size:10px;
+}
+#floatContainer:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
